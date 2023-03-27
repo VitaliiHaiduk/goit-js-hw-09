@@ -46,6 +46,7 @@ const options = {
        const deltaTime = selectedDates[0] - Date.now();
        countdownValue(convertMs(deltaTime));
        
+let intervalID = null;
 
     startButton.addEventListener('click', () => {  
        
