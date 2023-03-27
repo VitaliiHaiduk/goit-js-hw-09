@@ -12,7 +12,24 @@ body {
   line-height: 1.5;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+.timer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.value {
+  font-size: 50;
+  font-weight: 700;
+  text-align: center;
+}
+
+.label {
+  text-align: center;
+  text-transform: uppercase;
 }
